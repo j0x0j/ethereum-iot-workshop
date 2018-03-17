@@ -13,7 +13,7 @@ touch simpletest.py
 
 # Create a simple test file
 
-nano simpletest.py
+`nano simpletest.py`
 
 
 ```pyth0n
@@ -28,11 +28,12 @@ else:
     print('failed to get reading')
 ```  
 
-Save it with Ctrl+O an then Ctrl-X to go out
+Save it with `Ctrl+O` and then `Ctrl-X` to go out nano
     
-execute it with
+Execute it with
     
-python simpletest.py
+`python simpletest.py`
 
 This is the output
-Temp=21.0*C  Humidity=60.0%  
+
+`Temp=21.0*C  Humidity=60.0%`  
