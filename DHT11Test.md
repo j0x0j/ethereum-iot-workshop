@@ -1,19 +1,17 @@
-##Simple Test of Adafruit DHT11
+# Simple Test of Adafruit DHT11
 
 Do SSH to the RPI and type this
 
-
-
-sudo apt-get update
-sudo apt-get install build-essential python-dev
-wget https://github.com/adafruit/Adafruit_Python_DHT/archive/master.zip
-unzip master.zip
-cd Adafruit_Python_DHT-master/
-sudo python setup.py install
+- sudo apt-get update
+- sudo apt-get install build-essential python-dev
+- wget https://github.com/adafruit/Adafruit_Python_DHT/archive/master.zip
+- unzip master.zip
+- cd Adafruit_Python_DHT-master/
+- sudo python setup.py install
 
 touch simpletest.py
 
-Create a simple test file
+# Create a simple test file
 
 nano simpletest.py
 
