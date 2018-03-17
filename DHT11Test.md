@@ -16,7 +16,7 @@ touch simpletest.py
 nano simpletest.py
 
 
-[SNIPET]
+```pyth0n
 import Adafruit_DHT
 sensor = Adafruit_DHT.DHT11
 pin = 4
@@ -26,8 +26,7 @@ if humidity is not None and temperature is not None:
     print('Temp={0:0.1f}*C  Humidity={1:0.1f}%'.format(temperature, humidity))
 else:
     print('failed to get reading')
-
-[/SNIPET]    
+```  
 
 Save it with Ctrl+O an then Ctrl-X to go out
     
