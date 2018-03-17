@@ -9,14 +9,13 @@ Do SSH to the RPI and type this
 - cd Adafruit_Python_DHT-master/
 - sudo python setup.py install
 
-touch simpletest.py
 
 # Create a simple test file
 
 `nano simpletest.py`
 
 
-```pyth0n
+```python
 import Adafruit_DHT
 sensor = Adafruit_DHT.DHT11
 pin = 4
